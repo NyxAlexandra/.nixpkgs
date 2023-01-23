@@ -13,6 +13,7 @@
       c = "commit";
       l = "log";
       r = "reset";
+      s = "status";
     };
   };
 }
