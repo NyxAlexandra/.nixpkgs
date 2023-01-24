@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   imports = [
-    ./programs/git.nix
+    ./programs.nix
   ];
 
   home = {

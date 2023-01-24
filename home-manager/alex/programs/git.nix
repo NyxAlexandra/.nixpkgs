@@ -6,7 +6,7 @@
     delta.enable = true; # Diff highlighting
     signing = {
       signByDefault = true;
-      key = "F5EBDE53E64C6018";
+      key = null;
     };
     aliases = {
       a = "add";
