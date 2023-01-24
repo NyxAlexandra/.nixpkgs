@@ -2,7 +2,7 @@
   homebrew = {
     enable = true;
     brews = [
-      "pinentry-mac"
+      "pinentry-mac" # Passphrase entry for `gpg`
     ];
     casks = [
       "visual-studio-code"
