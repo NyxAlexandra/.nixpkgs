@@ -15,6 +15,7 @@
       l = "log";
       r = "reset";
       s = "status";
+      d = "diff";
     };
   };
 }
