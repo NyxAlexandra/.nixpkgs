@@ -1,6 +1,7 @@
 { config, pkgs, ... }: {
   imports = [
     ./environment.nix
+    ./fonts.nix
     ./home-manager.nix
     ./homebrew.nix
     ./networking.nix
