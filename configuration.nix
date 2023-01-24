@@ -2,6 +2,7 @@
   imports = [
     ./environment.nix
     ./home-manager.nix
+    ./homebrew.nix
     ./networking.nix
     ./nix.nix
     ./programs.nix
