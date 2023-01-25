@@ -6,6 +6,9 @@
       rustup
     ];
 
+    # Allowed shells
+    shells = with pkgs; [ nushell ];
+
     # darwinConfig = "$HOME/.config/nixpkgs/darwin/configuration.nix";
   };
 }
