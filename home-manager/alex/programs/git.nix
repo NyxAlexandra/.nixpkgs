@@ -7,7 +7,7 @@
     signing = {
       signByDefault = true;
       # Acquired with `gpg --list-secret-keys --keyid-format=long`
-      key = "F5EBDE53E64C6018";
+      key = "0xA2F97DEE82E3F0C2";
     };
     aliases = {
       a = "add";
