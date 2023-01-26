@@ -648,3 +648,6 @@ let-env config = {
     }
   ]
 }
+
+# Load Zoxide config
+source ~/.config/zoxide.nu

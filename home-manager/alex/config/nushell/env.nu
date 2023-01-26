@@ -69,3 +69,6 @@ let-env NU_PLUGIN_DIRS = [
 # let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
 
 let-env EDITOR = "hx"
+
+# Generate Zoxide config
+zoxide init nushell | save -f ~/.config/zoxide.nu
