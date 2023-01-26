@@ -1,8 +1,8 @@
 { pkgs, ... }: {
   programs.git = {
     enable = true;
-    userName = "alex-ahr";
-    userEmail = "alexreaves@protonmail.com";
+    userName = "NyxAlexandra";
+    userEmail = "nyxalexandra@proton.me";
     delta.enable = true; # Diff highlighting
     signing = {
       signByDefault = true;
