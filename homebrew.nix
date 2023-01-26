@@ -13,6 +13,7 @@
       "bitwarden"
       "docker"
       "podman-desktop"
+      "shottr"
     ];
   };
 }
