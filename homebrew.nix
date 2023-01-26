@@ -3,6 +3,8 @@
     enable = true;
     brews = [
       "pinentry-mac" # Passphrase entry for `gpg`
+      "docker"
+      "podman"
     ];
     casks = [
       "visual-studio-code"
@@ -10,6 +12,7 @@
       "ticktick"
       "bitwarden"
       "docker"
+      "podman-desktop"
     ];
   };
 }
