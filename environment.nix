@@ -4,6 +4,7 @@
       neovim
       helix
       rustup
+      neofetch
     ];
 
     # Allowed shells
