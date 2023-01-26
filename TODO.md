@@ -1,1 +1,3 @@
 - [ ] Shell env configuration
+  - [ ] `nushell`:
+    - [ ] Source environment in config, not from terminal
