@@ -5,6 +5,7 @@
       helix
       rustup
       neofetch
+      nushell
     ];
 
     # Allowed shells
