@@ -5,4 +5,6 @@
       nix-direnv.enable = true;
     };
   };
+
+  home.packages = with pkgs; [ direnv ];
 }
