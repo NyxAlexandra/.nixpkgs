@@ -14,6 +14,7 @@
       "docker"
       "podman-desktop"
       "shottr"
+      "iterm2"
     ];
   };
 }
