@@ -1,3 +1,3 @@
 - [ ] Shell env configuration
   - [ ] `nushell`:
-    - [ ] Source environment in config, not from terminal
+    - [ ] Source environment in config, not from terminal (research how VSCode sources it's environment)
