@@ -15,6 +15,7 @@
       "podman-desktop"
       "shottr"
       "iterm2"
+      "utm"
     ];
   };
 }
