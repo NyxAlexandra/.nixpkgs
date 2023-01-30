@@ -4,4 +4,5 @@
     file."Library/Application Support/nushell/env.nu".source = ./env.nu;
     packages = with pkgs; [ nushell fzf zoxide ];
   };
+  programs.nushell.enable = true;
 }
