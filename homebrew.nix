@@ -17,6 +17,7 @@
       "iterm2"
       "utm"
       "discord"
+      "spotify"
     ];
   };
 }
