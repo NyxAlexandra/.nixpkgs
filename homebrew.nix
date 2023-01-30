@@ -16,6 +16,7 @@
       "shottr"
       "iterm2"
       "utm"
+      "discord"
     ];
   };
 }
