@@ -1,3 +1,4 @@
-- [ ] Shell env configuration
-  - [ ] `nushell`:
-    - [ ] Source environment in config, not from terminal (research how VSCode sources it's environment)
+- [x] Shell env configuration
+  - [ ] ~~`nushell`:~~
+    - [ ] ~~Source environment in config, not from terminal (research how VSCode sources it's environment)~~
+- [ ] ZFS support (https://github.com/spl/zfs-on-mac)

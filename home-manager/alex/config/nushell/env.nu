@@ -1,13 +1,5 @@
-# Nushell Environment Config File
-
+# TODO: Find out why it still draws the clock
 def create_left_prompt [] {
-
-    # let path_segment = if (is-admin) {
-    #     $"(ansi red_bold)($env.PWD)"
-    # } else {
-    #     $"(ansi green_bold)($env.PWD)"
-    # }
-
     let user = $"(ansi red_bold)(whoami)"
     let at = $"(ansi green_bold)@"
     let host = $"(ansi blue_bold)(hostname)"
@@ -17,20 +9,11 @@ def create_left_prompt [] {
     $"($user)($at)($host) ($path_segment) \n\r"
 }
 
-def create_right_prompt [] {
-    # let time_segment = ([
-    #     (date now | date format '%m/%d/%Y %r')
-    # ] | str join)
+# def create_right_prompt [] {}
 
-    # $time_segment
-}
-
-# Use nushell functions to define your right and left prompt
 let-env PROMPT_COMMAND = { create_left_prompt }
 # let-env PROMPT_COMMAND_RIGHT = { create_right_prompt }
 
-# The prompt indicators are environmental variables that represent
-# the state of the prompt
 let-env PROMPT_INDICATOR = { "> " }
 let-env PROMPT_INDICATOR_VI_INSERT = { "\n: " }
 let-env PROMPT_INDICATOR_VI_NORMAL = { "\n>" }
@@ -65,10 +48,7 @@ let-env NU_PLUGIN_DIRS = [
     ($nu.config-path | path dirname | path join 'plugins')
 ]
 
-# To add entries to PATH (on Windows you might use Path), you can use the following pattern:
-# let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
-
-let-env EDITOR = "hx"
-
 # Generate Zoxide config
 zoxide init nushell | save -f ~/.config/zoxide.nu
+
+# let-env PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
