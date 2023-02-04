@@ -16,6 +16,7 @@
     variables = {
       "EDITOR" = "hx";
 
+      # Taken from `brew shellenv`
       "HOMEBREW_PREFIX" = "/opt/homebrew";
       "HOMEBREW_CELLAR" = "/opt/hoebrew/Cellar";
       "HOMEBREW_REPOSITORY" = "/opt/homebrew";
