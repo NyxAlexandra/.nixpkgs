@@ -6,6 +6,7 @@
       rustup
       neofetch
       nushell
+      nixpkgs-fmt
     ];
 
     # Allowed shells
