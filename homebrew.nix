@@ -1,10 +1,15 @@
 { pkgs, ... }: {
   homebrew = {
     enable = true;
+    taps = [
+      "koekeishiya/formulae"
+    ];
     brews = [
       "pinentry-mac" # Passphrase entry for `gpg`
       "docker"
       "podman"
+      "yabai"
+      "skhd"
     ];
     casks = [
       "visual-studio-code"
@@ -18,6 +23,7 @@
       "utm"
       "discord"
       "spotify"
+      "gimp"
     ];
   };
 }
