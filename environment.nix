@@ -9,6 +9,11 @@
       nixpkgs-fmt
     ];
 
+    # Items to add to the path
+    systemPath = [
+      "~/.cargo/bin"
+    ];
+
     # Allowed shells
     shells = with pkgs; [ nushell ];
 
