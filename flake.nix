@@ -11,9 +11,17 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-doom-emacs.url = "github:nix-community/nix-doom-emacs";
   };
 
-  outputs = { self, darwin, nixpkgs, home-manager, ... } @ inputs: {
+  outputs = {
+    self,
+    darwin,
+    nixpkgs,
+    home-manager,
+    nix-doom-emacs,
+    ...
+  } @ inputs: {
     darwinConfigurations."M2macOS" = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       specialArgs = { inherit inputs; };
